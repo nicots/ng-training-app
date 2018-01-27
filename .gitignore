@@ -9,6 +9,8 @@
 # dependencies
 /node_modules
 
+/src_mecomments
+
 # IDEs and editors
 /.idea
 .project
