@@ -15,7 +15,7 @@
       <li *ngIf="!isAuth">
         <a routerLink="/login">Login</a>
       </li>
-      <li>
+      <li *ngIf="isAuth">
         <a routerLink="/training">Training</a>
       </li>
       <li *ngIf="isAuth">

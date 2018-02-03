@@ -45,6 +45,6 @@ import { AuthService } from './auth/auth.service';
   ],
   providers: [AuthService],
   bootstrap: [AppComponent],
-  entryComponents: [StopTrainingComponent] //angular be prepared to use it
+  entryComponents: [StopTrainingComponent]
 })
 export class AppModule { }
