@@ -10,6 +10,7 @@ import { AuthService } from '../auth.service';
 })
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
+  myTester: FormGroup;
 
   constructor(private authService: AuthService) {}
 
@@ -20,6 +21,10 @@ export class LoginComponent implements OnInit {
       }),
       password: new FormControl('', { validators: [Validators.required] })
     });
+
+    this.myTester = new FormGroup({
+      tester: new FormControl()
+    });
   }
 
   onSubmit() {
@@ -28,4 +33,9 @@ export class LoginComponent implements OnInit {
       password: this.loginForm.value.password
     });
   }
+
+  // onEnter() {
+
+  //   console.log(this.myTester.value.tester);
+  // }
 }

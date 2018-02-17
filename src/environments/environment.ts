@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    apiKey: "AIzaSyD8g9BfgYNbfSwlQ_O_52n1E748dQDgQnM",
+    authDomain: "ng-fitness-tracker-5e2e7.firebaseapp.com",
+    databaseURL: "https://ng-fitness-tracker-5e2e7.firebaseio.com",
+    projectId: "ng-fitness-tracker-5e2e7",
+    storageBucket: "ng-fitness-tracker-5e2e7.appspot.com",
+    messagingSenderId: "428776407623"
   }
 };
